@@ -1,0 +1,66 @@
+body {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+header {
+  color: white;
+}
+
+#solar-system {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.missions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Mercúrio {
+  width: 20px;
+}
+
+.Vênus {
+  width: 50px;
+}
+
+.Terra {
+  width: 50px;
+}
+
+.Marte {
+  width: 20px;
+}
+
+.Júpiter {
+  width: 300px;
+}
+
+.Saturno {
+  width: 300px;
+}
+
+.Urano {
+  width: 150px
+}
+
+.Netuno {
+  width: 150px;
+}
+
+.missionName {
+  font-weight: 800;
+}
+
+.missionCard {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 20px;
+}
